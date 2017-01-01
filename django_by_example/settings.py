@@ -101,6 +101,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# import mail configuration from settings_local
+from settings_local import *
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
